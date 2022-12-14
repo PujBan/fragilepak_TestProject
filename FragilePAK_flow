@@ -1,7 +1,7 @@
-id: WvsrVu0EWkalF5DXk2ytDg
+id: zZ8r12lQTkSfBLTQKvZYFQ
 projectId: vgS_hpP4Rk-xkRdfBUSxQA
 projectName: FragilePAK
-created: 2022-09-19T10:56:47.3236472Z
+created: 2022-12-14T11:32:54.6841713Z
 protocol: 1
 tests:
 - id: WgT1WxuuRUGFB6I0FQtBoA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-09-14T05:10:35.0000000
-  modificationDate: 2022-09-15T13:56:21.0000000
+  modificationDate: 2022-09-20T07:37:26.0000000
   settings:
     automationAssistant: true
     appId: q0NFTkMzT0aEJerpt5oWyQ
@@ -1682,27 +1682,15 @@ elements:
     value: /html/body/app-root/app-dashboard/div/app-configuration/div/app-page-header/div/div/a/img
     priority: 1
 - id: yutSnG5elkqBJdj85Jfafw
-  name: tenant
+  name: Environment drop down
   type:
     id: jUwODgyNjAyNzk2NTk1NDc
     name: Button
     source: System
   locators:
-  - name: CSSSELECTOR
-    value: '#tenant'
-    priority: 0
-  - name: CSSSELECTOR
-    value: "[name='tenant']"
-    priority: 1
-  - name: XPATH
-    value: //div[2]/div/button[. = 'Staging']
-    priority: 2
   - name: XPATH
     value: //div[2]/div/button
-    priority: 3
-  - name: XPATH
-    value: /html/body/app-root/app-dashboard/div/app-api-documentation/div/div[2]/div/button
-    priority: 4
+    priority: 0
 - id: qU9xSM89AU6ltRMNU-ofJg
   name: DIV2
   type:
@@ -1733,21 +1721,15 @@ elements:
     value: /html/body/app-root/app-dashboard/div/app-api-documentation/div/div[2]/div/div/button[2]
     priority: 2
 - id: 2D_JD_SJQEK49QXdX6sAyw
-  name: Authorize
+  name: 'Authorize button on API documentation '
   type:
     id: jUwODgyNjAyNzk2NTk1NjU
     name: span
     source: System
   locators:
   - name: XPATH
-    value: //span[. = 'Authorize']
-    priority: 0
-  - name: XPATH
     value: //section/div/button/span
-    priority: 1
-  - name: XPATH
-    value: /html/body/app-root/app-dashboard/div/app-api-documentation/div/div[3]/div/div[2]/div[2]/section/div/button/span
-    priority: 2
+    priority: 0
 - id: c7MliN4dXUaQUDZ9vUhMnw
   name: DIV3
   type:
@@ -1884,18 +1866,15 @@ elements:
     value: /html/body/app-root/app-dashboard/div/app-api-documentation/div/div[3]/div/div[2]/div[4]/section/div/span/div/h3/button/*[name()='svg']
     priority: 1
 - id: x9SuW9IV_Ey2M2T2K5YFug
-  name: svg1
+  name: Open first API
   type:
     id: jUwODgyNjAyNzk2NTk1NDM
     name: Generic Web Element
     source: System
   locators:
   - name: XPATH
-    value: //span[1]/div/div/button[1]/*[name()='svg']
+    value: //span[1]/div/div/button[1]
     priority: 0
-  - name: XPATH
-    value: /html/body/app-root/app-dashboard/div/app-api-documentation/div/div[3]/div/div[2]/div[4]/section/div/span/div/div/div/span[1]/div/div/button[1]/*[name()='svg']
-    priority: 1
 - id: ZZF1OGIR302IBeSqCARZ8Q
   name: svg2
   type:
