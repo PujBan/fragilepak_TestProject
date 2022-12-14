@@ -1,0 +1,402 @@
+id: Olj1Gj7f9EicDKf4js57YA
+projectId: vgS_hpP4Rk-xkRdfBUSxQA
+projectName: FragilePAK
+created: 2022-12-14T11:32:54.6843946Z
+protocol: 1
+tests:
+- id: HSylbK0mRUqa0sAzWmtcHA
+  name: User Authorization
+  description: ''
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-09-21T05:50:17.0000000
+  modificationDate: 2022-09-23T07:53:04.0000000
+  settings:
+    automationAssistant: true
+    appId: q0NFTkMzT0aEJerpt5oWyQ
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: q0NFTkMzT0aEJerpt5oWyQ
+    name: FragilePAK
+    url: https://fragilepakstagefrontend.z13.web.core.windows.net/auth/login
+    platform: Web
+  steps:
+  - id: tXzOyMHZZUuePK_wB-3YCA
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: false
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qxZTjW3Se0iMqOuNLa9Lbg
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: yutSnG5elkqBJdj85Jfafw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ThV_P9_FQUqRo8LJa20ktA
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: pqCME4LXz0Odrqfjg5XLMw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Wc4E4B7oSUur_dbTR_co0Q
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: 2D_JD_SJQEK49QXdX6sAyw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ltA29996ZUGclPyu_8OFAw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: LjjZecLv7UOZtdSNRsSWxw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -YNJnuegq0GQvsWPTKbfPQ
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Addon
+    elementId: LjjZecLv7UOZtdSNRsSWxw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: -G2kQ0SSqECMtfr1JGAdww
+      source: Store
+      addonId: LFtMVbTf9EW7YK8qK4xzlQ
+    parameterMaps:
+    - name: keys
+      value: '{{ClientID}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5mabQfKfJEyfWNtWJCgI8Q
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: Tlx3BLMNx0-VADmN2QbHBw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 8V-ZmweVqUGm2I8ZpifkxQ
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: Tlx3BLMNx0-VADmN2QbHBw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{Clientsecret}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: UGTq1yAgvUmkWoqFksA66g
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: QR0l_Krx5UeiH1XR0v2LhA
+    settings:
+      sleepTime: 1386
+      timeout: 19817
+      sleepTiming: After
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Dcz9HjgScUyuBy036qbOGg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: l7xI9sJov0ClmA695HqNJA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 5e4cb36f-7757-4d63-8216-ba4e69496416
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MEQLPLDWb0CRNcJyguUWdg
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: UdFqNKVTLEKRbONFfZrV0w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://fragilepakstagefrontend.z13.web.core.windows.net/auth/login
+    type: Input
+  - name: ClientID
+    description: ''
+    value: f13defe0-6e11-4a31-8091-2aec6500543c
+    type: Input
+  - name: Clientsecret
+    description: ''
+    type: Input
+auxTests: []
+elements:
+- id: yutSnG5elkqBJdj85Jfafw
+  name: Environment drop down
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div/button
+    priority: 0
+- id: pqCME4LXz0Odrqfjg5XLMw
+  name: Production
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Production']
+    priority: 0
+  - name: XPATH
+    value: //div/div/div/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/app-root/app-dashboard/div/app-api-documentation/div/div[2]/div/div/button[2]
+    priority: 2
+- id: 2D_JD_SJQEK49QXdX6sAyw
+  name: 'Authorize button on API documentation '
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //section/div/button/span
+    priority: 0
+- id: LjjZecLv7UOZtdSNRsSWxw
+  name: client_id
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#client_id'
+    priority: 0
+  - name: XPATH
+    value: //div[1]/section/input
+    priority: 1
+  - name: XPATH
+    value: /html/body/app-root/app-dashboard/div/app-api-documentation/div/div[3]/div/div[2]/div[2]/section/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div[1]/section/input
+    priority: 2
+- id: Tlx3BLMNx0-VADmN2QbHBw
+  name: password1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#client_secret'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/section/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/app-root/app-dashboard/div/app-api-documentation/div/div[3]/div/div[2]/div[2]/section/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div[2]/section/input
+    priority: 3
+- id: QR0l_Krx5UeiH1XR0v2LhA
+  name: Authorize button in authorize pop-up
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[3]/button[1]
+    priority: 0
+- id: l7xI9sJov0ClmA695HqNJA
+  name: Logout
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Logout']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/button[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/app-root/app-dashboard/div/app-api-documentation/div/div[3]/div/div[2]/div[2]/section/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div[3]/button[1]
+    priority: 2
+- id: UdFqNKVTLEKRbONFfZrV0w
+  name: Close1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Close']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/app-root/app-dashboard/div/app-api-documentation/div/div[3]/div/div[2]/div[2]/section/div/div/div[2]/div/div/div[2]/div/div/div[2]/div/div[3]/button[2]
+    priority: 2
+projectParameters: []
+addons:
+- id: LFtMVbTf9EW7YK8qK4xzlQ
+  source: Store
+  version: 0.1
+  actions:
+  - id: -G2kQ0SSqECMtfr1JGAdww
+    name: Clear {{element}} contents and type {{keys}}
+    description: Run Clear {{element}} contents and type {{keys}}
+    className: io.testproject.addon.combined.actions.ClearAndTypeAction
+  minSdkLevel: 2
+  minSdkVersion: 0.65.0
+  sdkGeneration: 1
+  language: Java
+  hash: 8EF4181CC7B4137B2586CB8A2BDBFAB49C348D8273E96A9C6A85E4AA91C6650D
